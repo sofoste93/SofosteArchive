@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.bundle
+SECURITY_AUDIT.local.md
+/AGENTS.md
+AGENTS.md
+NOTES.md

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title description">
+  <title id="title">Sofoste S planet symbol</title>
+  <desc id="description">A multicolour S crossed by luminous planetary rings.</desc>
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#69e7ff"/><stop offset="0.18" stop-color="#72e6b1"/>
+      <stop offset="0.48" stop-color="#20d982"/><stop offset="0.68" stop-color="#f4c875"/>
+      <stop offset="0.84" stop-color="#9b7aff"/><stop offset="1" stop-color="#f07bc5"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20d982"/><stop offset="0.26" stop-color="#69e7ff"/>
+      <stop offset="0.58" stop-color="#f4c875"/><stop offset="0.82" stop-color="#9b7aff"/>
+      <stop offset="1" stop-color="#f07bc5"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="rotate(-16 600 600)">
+    <path d="M 108 600 C 230 360 892 360 1092 600" fill="none" stroke="#070b1d" stroke-width="48" stroke-linecap="round" opacity="0.92"/>
+    <path d="M 108 600 C 230 360 892 360 1092 600" fill="none" stroke="url(#ring)" stroke-width="22" stroke-linecap="round" filter="url(#soft-glow)"/>
+  </g>
+  <path d="M 816 300 C 728 188 548 169 408 221 C 290 265 252 365 300 447 C 352 536 466 548 594 560 C 742 574 850 646 828 773 C 803 915 638 976 486 953 C 372 936 286 886 238 816" fill="none" stroke="#070b1d" stroke-width="212" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 816 300 C 728 188 548 169 408 221 C 290 265 252 365 300 447 C 352 536 466 548 594 560 C 742 574 850 646 828 773 C 803 915 638 976 486 953 C 372 936 286 886 238 816" fill="none" stroke="url(#spectrum)" stroke-width="166" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft-glow)"/>
+  <path d="M 772 271 C 688 218 566 215 468 251" fill="none" stroke="#f6f2ff" stroke-width="15" stroke-linecap="round" opacity="0.42"/>
+  <g transform="rotate(-16 600 600)">
+    <path d="M 108 600 C 230 840 892 840 1092 600" fill="none" stroke="#070b1d" stroke-width="48" stroke-linecap="round"/>
+    <path d="M 108 600 C 230 840 892 840 1092 600" fill="none" stroke="url(#ring)" stroke-width="22" stroke-linecap="round" filter="url(#soft-glow)"/>
+    <circle cx="1016" cy="687" r="25" fill="#f6f2ff" stroke="#070b1d" stroke-width="13"/><circle cx="1016" cy="687" r="12" fill="#69e7ff" filter="url(#soft-glow)"/>
+  </g>
+</svg>
